@@ -1,5 +1,5 @@
 [package]
-name = "x"
+name = "tiny-redis"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,3 +7,8 @@ edition = "2021"
 
 [dependencies]
 tokio = { version = "1", features = ["full"] }
+mini-redis = "0.4"
+
+[[example]]
+name = "hello-redis"
+path = "examples/hello-redis.rs"
